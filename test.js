@@ -283,7 +283,7 @@ function endTest() {
         }
         const d = new Date();
    
-        const results = JSON.parse(localStorage.getItem("results"));
+        let results = JSON.parse(localStorage.getItem("results"));
         results[`${d.getDay()}`] = 1;
         localStorage.setItem("results", JSON.stringify(results));
         
