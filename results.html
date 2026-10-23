@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="dictionary.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Results</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">Words</a>
+        <a href="test.html">Test</a>
+        <a href="irregular-verbs.html">Verbs</a>
+        <a href="cat-game.html">Cat Game</a>
+    </header>
+    <div id="mode-block"><button id="mode" value="Night mode">Нічний режим</button></div>
+    <h1>Результати</h1>
+    <div class="results-box">
+        <div id="result-box">
+            <table id="result-table">
+                <tr>
+                    <td class="name">Дата</td>
+                    <td class="name">Вид</td>
+                    <td class="name">Результат</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table id="result-table">
+                <tr>
+                    <td class="name">День</td>
+                    <td class="name">Yes/No</td>
+                </tr>
+                <tr>
+                    <td>Неділя</td>
+                    <td id="sun" class="days">No</td>
+                </tr>
+                <tr>
+                    <td>Понеділок</td>
+                    <td id="mon" class="days">No</td>
+                </tr>
+                <tr>
+                    <td>Вівторок</td>
+                    <td id="tue" class="days">No</td>
+                </tr>
+                <tr>
+                    <td>Середа</td>
+                    <td id="wed" class="days">No</td>
+                </tr>
+                <tr>
+                    <td>Четвер</td>
+                    <td id="thu" class="days">No</td>
+                </tr>
+                <tr>
+                    <td>П'ятниця</td>
+                    <td id="fri" class="days">No</td>
+                </tr>
+                <tr>
+                    <td>Субота</td>
+                    <td id="sat" class="days">No</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <p id="senteces-p">Речення: <span id="sentences">No</span></p>
+    <div id="button-box">
+        <button id="clear-btn">Очистити</button>
+    </div>
+    <script src="results_script.js"></script>
+    <script src="mode-change.js"></script>
+</body>
+
+</html>

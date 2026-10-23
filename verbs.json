@@ -1,0 +1,134 @@
+{
+    "verbs": [
+        {
+            "verb": "buy",
+            "second": "bought",
+            "third": "bought"
+        },
+        {
+            "verb": "come",
+            "second": "came",
+            "third": "come"
+        },
+        {
+            "verb": "do",
+            "second": "did",
+            "third": "done"
+        },
+        {
+            "verb": "drink",
+            "second": "drank",
+            "third": "drunk"
+        },
+        {
+            "verb": "eat",
+            "second": "ate",
+            "third": "eaten"
+        },
+        {
+            "verb": "fall",
+            "second": "fell",
+            "third": "fallen"
+        },
+        {
+            "verb": "forget",
+            "second": "forgot",
+            "third": "forgotten"
+        },
+        {
+            "verb": "get",
+            "second": "got",
+            "third": "gotten"
+        },
+        {
+            "verb": "give",
+            "second": "gave",
+            "third": "given"
+        },
+        {
+            "verb": "go",
+            "second": "went",
+            "third": "gone"
+        },
+        {
+            "verb": "have",
+            "second": "had",
+            "third": "had"
+        },
+        {
+            "verb": "hear",
+            "second": "heard",
+            "third": "heard"
+        },
+        {
+            "verb": "make",
+            "second": "made",
+            "third": "made"
+        },
+        {
+            "verb": "meet",
+            "second": "met",
+            "third": "met"
+        },
+        {
+            "verb": "put",
+            "second": "put",
+            "third": "put"
+        },
+        {
+            "verb": "read",
+            "second": "read",
+            "third": "read"
+        },
+        {
+            "verb": "run",
+            "second": "ran",
+            "third": "run"
+        },
+        {
+            "verb": "see",
+            "second": "saw",
+            "third": "seen"
+        },
+        {
+            "verb": "sing",
+            "second": "sang",
+            "third": "sung"
+        },
+        {
+            "verb": "sit",
+            "second": "sat",
+            "third": "sat"
+        },
+        {
+            "verb": "sleep",
+            "second": "slept",
+            "third": "slept"
+        },
+        {
+            "verb": "stand",
+            "second": "stood",
+            "third": "stood"
+        },
+        {
+            "verb": "swim",
+            "second": "swam",
+            "third": "swum"
+        },
+        {
+            "verb": "take",
+            "second": "took",
+            "third": "taken"
+        },
+        {
+            "verb": "throw",
+            "second": "threw",
+            "third": "thrown"
+        },
+        {
+            "verb": "write",
+            "second": "wrote",
+            "third": "written"
+        }
+    ]
+}

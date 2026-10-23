@@ -1,0 +1,1418 @@
+{
+    "words": [
+        {
+            "word": "mother",
+            "translation": "мама",
+            "category": "Сім'я",
+            "type": "іменник",
+            "definition": "Людина, яка є матір'ю."
+        },
+        {
+            "word": "father",
+            "translation": "тато",
+            "category": "Сім'я",
+            "type": "іменник",
+            "definition": "Людина, яка є батьком."
+        },
+        {
+            "word": "sister",
+            "translation": "сестра",
+            "category": "Сім'я",
+            "type": "іменник",
+            "definition": "Дівчина, яка є сестрою."
+        },
+        {
+            "word": "brother",
+            "translation": "брат",
+            "category": "Сім'я",
+            "type": "іменник",
+            "definition": "Хлопець, який є братом."
+        },
+        {
+            "word": "grandfather",
+            "translation": "дідусь",
+            "category": "Сім'я",
+            "type": "іменник",
+            "definition": "Батько матері або батька."
+        },
+        {
+            "word": "grandmother",
+            "translation": "бабуся",
+            "category": "Сім'я",
+            "type": "іменник",
+            "definition": "Мати батька або матері."
+        },
+        {
+            "word": "parents",
+            "translation": "батьки",
+            "category": "Сім'я",
+            "type": "іменник",
+            "definition": "Батько та мати."
+        },
+        {
+            "word": "son",
+            "translation": "син",
+            "category": "Сім'я",
+            "type": "іменник",
+            "definition": "Хлопець, який є сином."
+        },
+        {
+            "word": "family",
+            "translation": "сім'я",
+            "category": "Сім'я",
+            "type": "іменник",
+            "definition": "Люди, які пов'язані між собою родинним зв'язком."
+        },
+        {
+            "word": "friend",
+            "translation": "друг",
+            "category": "Сім'я",
+            "type": "іменник",
+            "definition": "Людина, що є для тебе близькою."
+        },
+        {
+            "word": "boy",
+            "translation": "хлопець",
+            "category": "Сім'я",
+            "type": "іменник",
+            "definition": "Хлопець."
+        },
+        {
+            "word": "girl",
+            "translation": "дівчина",
+            "category": "Сім'я",
+            "type": "іменник",
+            "definition": "Дівчина."
+        },
+        {
+            "word": "dog",
+            "translation": "пес",
+            "category": "Улюбленці",
+            "type": "іменник",
+            "definition": "Домашня тварина, що захищає господаря."
+        },
+        {
+            "word": "cat",
+            "translation": "кіт",
+            "category": "Улюбленці",
+            "type": "іменник",
+            "definition": "Домашня тварина, з сім'ї котячих."
+        },
+        {
+            "word": "pig",
+            "translation": "свиня",
+            "category": "Тварини",
+            "type": "іменник",
+            "definition": "Велика фермерська тварина, що використовується для отримання м'яса."
+        },
+        {
+            "word": "kitten",
+            "translation": "кошеня",
+            "category": "Улюбленці",
+            "type": "іменник",
+            "definition": "Маленький кіт."
+        },
+        {
+            "word": "puppy",
+            "translation": "щеня",
+            "category": "Улюбленці",
+            "type": "іменник",
+            "definition": "Маленький пес."
+        },
+        {
+            "word": "fish",
+            "translation": "риба",
+            "category": "Тварини",
+            "type": "іменник",
+            "definition": "Водна тварина, що живе в річках або океанах."
+        },
+        {
+            "word": "hamster",
+            "translation": "хом'як",
+            "category": "Улюбленці",
+            "type": "іменник",
+            "definition": "Маленька тварина, що живе в клітці та бігає в колесі."
+        },
+        {
+            "word": "rabbit",
+            "translation": "кролик",
+            "category": "Улюбленці",
+            "type": "іменник",
+            "definition": "Маленька тварина, що має великі вуха та їсть моркву."
+        },
+        {
+            "word": "parrot",
+            "translation": "папуга",
+            "category": "Улюбленці",
+            "type": "іменник",
+            "definition": "Птах, що має різноманітні кольори і може повторювати слова."
+        },
+        {
+            "word": "turtle",
+            "translation": "черепаха",
+            "category": "Улюбленці",
+            "type": "іменник",
+            "definition": "Тварина, що має панцир і живе в воді."
+        },
+        {
+            "word": "red",
+            "translation": "червоний",
+            "category": "Кольори",
+            "type": "прикметник",
+            "definition": "Колір стиглиг яблук та троянд."
+        },
+        {
+            "word": "green",
+            "translation": "зелений",
+            "category": "Кольори",
+            "type": "прикметник",
+            "definition": "Колір листя та трави."
+        },
+        {
+            "word": "blue",
+            "translation": "блакитний",
+            "category": "Кольори",
+            "type": "прикметник",
+            "definition": "Колір неба та океану."
+        },
+        {
+            "word": "orange",
+            "translation": "помаранчевий",
+            "category": "Кольори",
+            "type": "прикметник",
+            "definition": "Колір мандаринів та листя восени."
+        },
+        {
+            "word": "yellow",
+            "translation": "жовтий",
+            "category": "Кольори",
+            "type": "прикметник",
+            "definition": "Колір сонця та лимону."
+        },
+        {
+            "word": "pink",
+            "translation": "рожевий",
+            "category": "Кольори",
+            "type": "прикметник",
+            "definition": "Колір фламінго та тюльпанів."
+        },
+        {
+            "word": "grey",
+            "translation": "сірий",
+            "category": "Кольори",
+            "type": "прикметник",
+            "definition": "Колір хмар та вовків."
+        },
+        {
+            "word": "black",
+            "translation": "чорний",
+            "category": "Кольори",
+            "type": "прикметник",
+            "definition": "Колір неба вночі та шовковиці."
+        },
+        {
+            "word": "white",
+            "translation": "білий",
+            "category": "Кольори",
+            "type": "прикметник",
+            "definition": "Колір снігу та полярних медвідів."
+        },
+        {
+            "word": "purple",
+            "translation": "фіолетовий",
+            "category": "Кольори",
+            "type": "прикметник",
+            "definition": "Колір фіалок та баклажанів."
+        },
+        {
+            "word": "brown",
+            "translation": "коричневий",
+            "category": "Кольори",
+            "type": "прикметник",
+            "definition": "Колір землі та шоколаду."
+        },
+        {
+            "word": "be",
+            "translation": "бути / є",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Існувати."
+        },
+        {
+            "word": "do",
+            "translation": "робити",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Робити або виконувати щось."
+        },
+        {
+            "word": "love",
+            "translation": "любити",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Мати сильні почуття до когось."
+        },
+        {
+            "word": "jump",
+            "translation": "стрибати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Стрибати."
+        },
+        {
+            "word": "run",
+            "translation": "бігти",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Дуже швидко рухатися на ногах."
+        },
+        {
+            "word": "eat",
+            "translation": "їсти",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Споживати їжу."
+        },
+        {
+            "word": "drink",
+            "translation": "пити",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Споживати напої."
+        },
+        {
+            "word": "cook",
+            "translation": "готувати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Готувати їжу."
+        },
+        {
+            "word": "read",
+            "translation": "читати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Сприймати букви, слова і розуміти їх значення."
+        },
+        {
+            "word": "play",
+            "translation": "грати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Грати."
+        },
+        {
+            "word": "sleep",
+            "translation": "спати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Проводити час у снах."
+        },
+        {
+            "word": "open",
+            "translation": "відкривати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Відкривати щось."
+        },
+        {
+            "word": "close",
+            "translation": "закривати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Закривати щось."
+        },
+        {
+            "word": "throw",
+            "translation": "кидати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Кидати щось."
+        },
+        {
+            "word": "stink",
+            "translation": "смердіти",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Виражати неприємний запах."
+        },
+        {
+            "word": "dream",
+            "translation": "мріяти",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Фантазувати про щось."
+        },
+        {
+            "word": "like",
+            "translation": "подобатися",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Відчувати симпатію до чого-небудь."
+        },
+        {
+            "word": "make",
+            "translation": "створювати / робити",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Створювати щось."
+        },
+        {
+            "word": "can",
+            "translation": "могти / вміти",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Знати як робити щось."
+        },
+        {
+            "word": "sun",
+            "translation": "сонце",
+            "category": "Природа та погода",
+            "type": "іменник",
+            "definition": "Зірка, що освітлює землю."
+        },
+        {
+            "word": "rain",
+            "translation": "дощ",
+            "category": "Природа та погода",
+            "type": "іменник",
+            "definition": "Опади в теплі сезони."
+        },
+        {
+            "word": "snow",
+            "translation": "сніг",
+            "category": "Природа та погода",
+            "type": "іменник",
+            "definition": "Опади взимку."
+        },
+        {
+            "word": "wind",
+            "translation": "вітер",
+            "category": "Природа та погода",
+            "type": "іменник",
+            "definition": "Рух повітря."
+        },
+        {
+            "word": "apple",
+            "translation": "яблуко",
+            "category": "Фрукти",
+            "type": "іменник",
+            "definition": "Фрукт, що росте на дереві. Назва компанії, що створює техніку."
+        },
+        {
+            "word": "pear",
+            "translation": "груша",
+            "category": "Фрукти",
+            "type": "іменник",
+            "definition": "Фрукт схожий на лампочку."
+        },
+        {
+            "word": "orange",
+            "translation": "апельсин",
+            "category": "Фрукти",
+            "type": "іменник",
+            "definition": "Цитрусовий, що асоціюється зі сонцем."
+        },
+        {
+            "word": "lemon",
+            "translation": "лимон",
+            "category": "Фрукти",
+            "type": "іменник",
+            "definition": "Цитрусовий, що має кислий смак."
+        },
+        {
+            "word": "grapes",
+            "translation": "виноград",
+            "category": "Фрукти",
+            "type": "іменник",
+            "definition": "Фрукт, з якого виготовляють вино."
+        },
+        {
+            "word": "pineapple",
+            "translation": "ананас",
+            "category": "Фрукти",
+            "type": "іменник",
+            "definition": "Фрукт, що іноді додають в піццу."
+        },
+        {
+            "word": "kiwi",
+            "translation": "ківі",
+            "category": "Фрукти",
+            "type": "іменник",
+            "definition": "Волохатий фрукт, що є зеленим всередені."
+        },
+        {
+            "word": "juice",
+            "translation": "сік",
+            "category": "Їжі та напої",
+            "type": "іменник",
+            "definition": "Напій, що робиться за допомогою фруктів."
+        },
+        {
+            "word": "water",
+            "translation": "вода",
+            "category": "Їжі та напої",
+            "type": "іменник",
+            "definition": "Рідина, що є необхідною для життя."
+        },
+        {
+            "word": "food",
+            "translation": "їжа",
+            "category": "Їжі та напої",
+            "type": "іменник",
+            "definition": "Те що ми їмо."
+        },
+        {
+            "word": "egg",
+            "translation": "яйце",
+            "category": "Їжі та напої",
+            "type": "іменник",
+            "definition": "Те, з чого роблять омлет."
+        },
+        {
+            "word": "milk",
+            "translation": "молоко",
+            "category": "Їжі та напої",
+            "type": "іменник",
+            "definition": "Рідина, яку отримують від коров."
+        },
+        {
+            "word": "bread",
+            "translation": "хліб",
+            "category": "Їжі та напої",
+            "type": "іменник",
+            "definition": "Те, що робиться з муки, та присутнє на кожному столі."
+        },
+        {
+            "word": "carrot",
+            "translation": "морква",
+            "category": "Овочі",
+            "type": "іменник",
+            "definition": "Овоч, котрий полюбляють кролики."
+        },
+        {
+            "word": "potato",
+            "translation": "картопля",
+            "category": "Овочі",
+            "type": "іменник",
+            "definition": "Найстандартніший овоч."
+        },
+        {
+            "word": "tomato",
+            "translation": "помідор",
+            "category": "Овочі",
+            "type": "іменник",
+            "definition": "Овоч, який використовують для приготування кетчупу."
+        },
+        {
+            "word": "cucumber",
+            "translation": "огірок",
+            "category": "Овочі",
+            "type": "іменник",
+            "definition": "Зелений водянистий овоч, який використовують для приготування салатів."
+        },
+        {
+            "word": "onion",
+            "translation": "цибуля",
+            "category": "Овочі",
+            "type": "іменник",
+            "definition": "Овоч, який змушує плакати."
+        },
+        {
+            "word": "pepper",
+            "translation": "перець",
+            "category": "Овочі",
+            "type": "іменник",
+            "definition": "Овоч, що може бути гострим. Його іноді фарширують."
+        },
+        {
+            "word": "beet",
+            "translation": "буряк",
+            "category": "Овочі",
+            "type": "іменник",
+            "definition": "Овоч, який використовують для приготування борщу."
+        },
+        {
+            "word": "room",
+            "translation": "кімната",
+            "category": "Будинок, кімнати та меблі",
+            "type": "іменник",
+            "definition": "Загальна назва чатини будинку."
+        },
+        {
+            "word": "kitchen",
+            "translation": "кухня",
+            "category": "Будинок, кімнати та меблі",
+            "type": "іменник",
+            "definition": "Кімната, де готують їжу."
+        },
+        {
+            "word": "bathroom",
+            "translation": "ванна кімната",
+            "category": "Будинок, кімнати та меблі",
+            "type": "іменник",
+            "definition": "Кімната, де є ванна."
+        },
+        {
+            "word": "bedroom",
+            "translation": "спальна кімната",
+            "category": "Будинок, кімнати та меблі",
+            "type": "іменник",
+            "definition": "Кімната, де сплять."
+        },
+        {
+            "word": "bed",
+            "translation": "ліжко",
+            "category": "Будинок, кімнати та меблі",
+            "type": "іменник",
+            "definition": "Мебль для сну."
+        },
+        {
+            "word": "hall",
+            "translation": "коридор",
+            "category": "Будинок, кімнати та меблі",
+            "type": "іменник",
+            "definition": "Простір, який з'єднує різні кімнати."
+        },
+        {
+            "word": "living room",
+            "translation": "зала",
+            "category": "Будинок, кімнати та меблі",
+            "type": "іменник",
+            "definition": "Кімната, де люди проводять час разом."
+        },
+        {
+            "word": "garden",
+            "translation": "садок",
+            "category": "Будинок, кімнати та меблі",
+            "type": "іменник",
+            "definition": "Простір, де вирощують рослини."
+        },
+        {
+            "word": "door",
+            "translation": "двері",
+            "category": "Будинок, кімнати та меблі",
+            "type": "іменник",
+            "definition": "Об'єкт, через який входять або виходять з кімнати."
+        },
+        {
+            "word": "table",
+            "translation": "стіл",
+            "category": "Будинок, кімнати та меблі",
+            "type": "іменник",
+            "definition": "Мебль для споживання їжі."
+        },
+        {
+            "word": "chair",
+            "translation": "стілець",
+            "category": "Будинок, кімнати та меблі",
+            "type": "іменник",
+            "definition": "Мебль для сидіння."
+        },
+        {
+            "word": "fridge",
+            "translation": "холодильник",
+            "category": "Будинок, кімнати та меблі",
+            "type": "іменник",
+            "definition": "Пристрій для зберігання їжі при низькій температурі."
+        },
+        {
+            "word": "sad",
+            "translation": "сумний",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Відчуття печалі або невдоволення."
+        },
+        {
+            "word": "happy",
+            "translation": "щасливий",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Відчуття радості або задоволення."
+        },
+        {
+            "word": "bad",
+            "translation": "поганий",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Не гарний."
+        },
+        {
+            "word": "good",
+            "translation": "добрий",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Гарний."
+        },
+        {
+            "word": "funny",
+            "translation": "смішний",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Той, що веселить."
+        },
+        {
+            "word": "angry",
+            "translation": "злий",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Відчуття злості."
+        },
+        {
+            "word": "pretty",
+            "translation": "красивий",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Прекрасний або вродливий."
+        },
+        {
+            "word": "tall",
+            "translation": "високий",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Великий за висотою."
+        },
+        {
+            "word": "short",
+            "translation": "короткий / низький",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Не довгий / не високий."
+        },
+        {
+            "word": "big",
+            "translation": "великий",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Великий за розміром або значенням."
+        },
+        {
+            "word": "small",
+            "translation": "малий",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Не великий."
+        },
+        {
+            "word": "scared",
+            "translation": "наляканий",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Той, що відчуває страх."
+        },
+        {
+            "word": "brave",
+            "translation": "хоробрий",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Той, що не боїться."
+        },
+        {
+            "word": "lovely",
+            "translation": "Милий",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Дуже милий або приємний."
+        },
+        {
+            "word": "fat",
+            "translation": "товстий",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Той, що має велику вагу."
+        },
+        {
+            "word": "slim",
+            "translation": "тонкий",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Той, що не має великої ваги."
+        },
+        {
+            "word": "strong",
+            "translation": "сильний",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Має велику фізичну силу."
+        },
+        {
+            "word": "very",
+            "translation": "дуже",
+            "category": "Прислівники",
+            "type": "прислівник",
+            "definition": "Слово, що посилює прикметники."
+        },
+        {
+            "word": "wolf",
+            "translation": "вовк",
+            "category": "Тварини",
+            "type": "іменник",
+            "definition": "Дика сіра тварина, що живе в лісі та від якої походять собаки."
+        },
+        {
+            "word": "bear",
+            "translation": "медвідь",
+            "category": "Тварини",
+            "type": "іменник",
+            "definition": "Дика (зазвичай коричнева) тварина, що їсть мед."
+        },
+        {
+            "word": "mole",
+            "translation": "кріт",
+            "category": "Тварини",
+            "type": "іменник",
+            "definition": "Невелика тварина, що живе в землі та псує врожай."
+        },
+        {
+            "word": "bird",
+            "translation": "птах",
+            "category": "Тварини",
+            "type": "іменник",
+            "definition": "Загальна назва для тварини, що може літати."
+        },
+        {
+            "word": "sparrow",
+            "translation": "горобець",
+            "category": "Тварини",
+            "type": "іменник",
+            "definition": "Мала пташка, що живе в саду та їсть насіння."
+        },
+        {
+            "word": "fox",
+            "translation": "лисиця",
+            "category": "Тварини",
+            "type": "іменник",
+            "definition": "Дика тварина, що живе в лісі та краде курей."
+        },
+        {
+            "word": "animal",
+            "translation": "тварина",
+            "category": "Тварини",
+            "type": "іменник",
+            "definition": "Загальна назва для тварин."
+        },
+        {
+            "word": "panda",
+            "translation": "панда",
+            "category": "Тварини",
+            "type": "іменник",
+            "definition": "Чорно-білий ведмідь, що їсть бамбук."
+        },
+        {
+            "word": "guinea pig",
+            "translation": "морська свинка",
+            "category": "Улюбленці",
+            "type": "іменник",
+            "definition": "Невелика тварина, що схожа на хом'яка та живе в клітці."
+        },
+        {
+            "word": "pet",
+            "translation": "домашня тварина",
+            "category": "Улюбленці",
+            "type": "іменник",
+            "definition": "Тварина, яку тримають вдома як друга."
+        },
+        {
+            "word": "goose",
+            "translation": "гусь",
+            "category": "Тварини",
+            "type": "іменник",
+            "definition": "Білий фермерський птах, трохи быльший за качку."
+        },
+        {
+            "word": "human",
+            "translation": "людина",
+            "category": "Сім'я",
+            "type": "іменник",
+            "definition": "Чоловік або жінка."
+        },
+        {
+            "word": "buy",
+            "translation": "купувати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Платити за щось в магазині."
+        },
+        {
+            "word": "dance",
+            "translation": "танцювати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Рухатися під музику."
+        },
+        {
+            "word": "sing",
+            "translation": "співати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Виконувати музичні пісні."
+        },
+        {
+            "word": "see",
+            "translation": "бачити",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Бачити щось."
+        },
+        {
+            "word": "want",
+            "translation": "хотіти",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Мати бажання."
+        },
+        {
+            "word": "heal",
+            "translation": "лікуватися",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Відновлювати здоров'я."
+        },
+        {
+            "word": "help",
+            "translation": "допомогати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Підтримувати або робити щось для когось."
+        },
+        {
+            "word": "write",
+            "translation": "писати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Писати слова або речення."
+        },
+        {
+            "word": "watch",
+            "translation": "дивитися",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Дивитися на щось."
+        },
+        {
+            "word": "work",
+            "translation": "працювати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Виконувати якусь діяльність."
+        },
+        {
+            "word": "fall",
+            "translation": "падати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Падати або впасти."
+        },
+        {
+            "word": "meet",
+            "translation": "зустрічати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Зустрічати когось."
+        },
+        {
+            "word": "end",
+            "translation": "припиняти / закінчувати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Припиняти активність."
+        },
+        {
+            "word": "forget",
+            "translation": "забувати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Не пам'ятати."
+        },
+        {
+            "word": "get",
+            "translation": "отримувати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Отримувати щось."
+        },
+        {
+            "word": "hear",
+            "translation": "чути",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Чути щось."
+        },
+        {
+            "word": "wait",
+            "translation": "чекати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Чекати чогось."
+        },
+        {
+            "word": "start",
+            "translation": "починати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Починати щось."
+        },
+        {
+            "word": "window",
+            "translation": "вікно",
+            "category": "Будинок, кімнати та меблі",
+            "type": "іменник",
+            "definition": "ОтвІр у стіні, через який можна бачити вулицю."
+        },
+        {
+            "word": "closet",
+            "translation": "шафа",
+            "category": "Будинок, кімнати та меблі",
+            "type": "іменник",
+            "definition": "Мебль для зберыгання одягу."
+        },
+        {
+            "word": "sofa",
+            "translation": "диван",
+            "category": "Будинок, кімнати та меблі",
+            "type": "іменник",
+            "definition": "Мебль для відпочинку, сидіння."
+        },
+        {
+            "word": "armchair",
+            "translation": "крісло",
+            "category": "Будинок, кімнати та меблі",
+            "type": "іменник",
+            "definition": "Мебль для сидіння. Стілець з підлокітниками."
+        },
+        {
+            "word": "nightstand",
+            "translation": "нічний стілець / тумбочка",
+            "category": "Будинок, кімнати та меблі",
+            "type": "іменник",
+            "definition": "Мебль для зберігання речей біля ліжка."
+        },
+        {
+            "word": "shelf",
+            "translation": "полиця",
+            "category": "Будинок, кімнати та меблі",
+            "type": "іменник",
+            "definition": "Мебль для зберігання речей на стіні, частіше за все книг."
+        },
+        {
+            "word": "stove",
+            "translation": "плита",
+            "category": "Будинок, кімнати та меблі",
+            "type": "іменник",
+            "definition": "Мебль для приготування та розігрівання їжі."
+        },
+        {
+            "word": "bath",
+            "translation": "ванна",
+            "category": "Будинок, кімнати та меблі",
+            "type": "іменник",
+            "definition": "Мебль для купання."
+        },
+        {
+            "word": "sink",
+            "translation": "раковина",
+            "category": "Будинок, кімнати та меблі",
+            "type": "іменник",
+            "definition": "Мебль для миття посуду та рук."
+        },
+        {
+            "word": "desk",
+            "translation": "робочий стіл / парта",
+            "category": "Будинок, кімнати та меблі",
+            "type": "іменник",
+            "definition": "Стіл для навчання, роботи."
+        },
+        {
+            "word": "school",
+            "translation": "школа",
+            "category": "Школа",
+            "type": "іменник",
+            "definition": "Місце для навчання."
+        },
+        {
+            "word": "subject",
+            "translation": "предмет",
+            "category": "Школа",
+            "type": "іменник",
+            "definition": "Математика, українська мова, історія..."
+        },
+        {
+            "word": "book",
+            "translation": "книга",
+            "category": "Школа",
+            "type": "іменник",
+            "definition": "Щось, що читають."
+        },
+        {
+            "word": "pen",
+            "translation": "ручка",
+            "category": "Школа",
+            "type": "іменник",
+            "definition": "Інструмент для писання."
+        },
+        {
+            "word": "pencil",
+            "translation": "олівець",
+            "category": "Школа",
+            "type": "іменник",
+            "definition": "Інструмент для писання та малювання."
+        },
+        {
+            "word": "copybook",
+            "translation": "зошит",
+            "category": "Школа",
+            "type": "іменник",
+            "definition": "Те, в що пишуть."
+        },
+        {
+            "word": "classroom",
+            "translation": "класна кімната",
+            "category": "Школа",
+            "type": "іменник",
+            "definition": "Кімната для навчання в школі."
+        },
+        {
+            "word": "lesson",
+            "translation": "урок",
+            "category": "Школа",
+            "type": "іменник",
+            "definition": "45 хвилин навчання."
+        },
+        {
+            "word": "teacher",
+            "translation": "вчитель",
+            "category": "Школа",
+            "type": "іменник",
+            "definition": "Особа, яка вчить інших."
+        },
+        {
+            "word": "test",
+            "translation": "тест",
+            "category": "Школа",
+            "type": "іменник",
+            "definition": "Перевірка знань."
+        },
+        {
+            "word": "ruler",
+            "translation": "лінійка",
+            "category": "Школа",
+            "type": "іменник",
+            "definition": "Інструмент для вимірювання."
+        },
+        {
+            "word": "rubber",
+            "translation": "гумка / стиралка",
+            "category": "Школа",
+            "type": "іменник",
+            "definition": "Інструмент для стирання того, що написане олівцем."
+        },
+        {
+            "word": "tree",
+            "translation": "дерево",
+            "category": "Природа та погода",
+            "type": "іменник",
+            "definition": "Рослина з стовбуром і гілками."
+        },
+        {
+            "word": "bush",
+            "translation": "кущ",
+            "category": "Природа та погода",
+            "type": "іменник",
+            "definition": "Рослина з гілками, але без стовбура."
+        },
+        {
+            "word": "flower",
+            "translation": "квітка",
+            "category": "Природа та погода",
+            "type": "іменник",
+            "definition": "Рослина, яка має кольорові листки і запах та використовується як подарунок."
+        },
+        {
+            "word": "grass",
+            "translation": "трава",
+            "category": "Природа та погода",
+            "type": "іменник",
+            "definition": "Зелень, що росте на землі."
+        },
+        {
+            "word": "plant",
+            "translation": "рослина",
+            "category": "Природа та погода",
+            "type": "іменник",
+            "definition": "Загальна назва для дерев, кущів та квітів."
+        },
+        {
+            "word": "nature",
+            "translation": "природа",
+            "category": "Природа та погода",
+            "type": "іменник",
+            "definition": "Усі живі організми та їхнє оточення."
+        },
+        {
+            "word": "river",
+            "translation": "річка",
+            "category": "Природа та погода",
+            "type": "іменник",
+            "definition": "Вода, що тече по землі."
+        },
+        {
+            "word": "lake",
+            "translation": "озеро",
+            "category": "Природа та погода",
+            "type": "іменник",
+            "definition": "Вода, що знаходиться на одному місці, та не тече."
+        },
+        {
+            "word": "sea",
+            "translation": "море",
+            "category": "Природа та погода",
+            "type": "іменник",
+            "definition": "Вода, що покриває велику частину земної поверхні."
+        },
+        {
+            "word": "ocean",
+            "translation": "океан",
+            "category": "Природа та погода",
+            "type": "іменник",
+            "definition": "Назва для найбільших водоємів."
+        },
+        {
+            "word": "pond",
+            "translation": "стівр",
+            "category": "Природа та погода",
+            "type": "іменник",
+            "definition": "Маленьке водоймище створене людиною."
+        },
+        {
+            "word": "swamp",
+            "translation": "болото",
+            "category": "Природа та погода",
+            "type": "іменник",
+            "definition": "Застояне водоймище, що має велику рослинність."
+        },
+        {
+            "word": "swim",
+            "translation": "плавати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Рухатися в воді."
+        },
+        {
+            "word": "forest",
+            "translation": "ліс",
+            "category": "Природа та погода",
+            "type": "іменник",
+            "definition": "Зона з великою кількістю дерев."
+        },
+        {
+            "word": "leaf",
+            "translation": "лист",
+            "category": "Природа та погода",
+            "type": "іменник",
+            "definition": "Листок."
+        },
+        {
+            "word": "branch",
+            "translation": "гілка",
+            "category": "Природа та погода",
+            "type": "іменник",
+            "definition": "Гілка дерева."
+        },
+        {
+            "word": "stick",
+            "translation": "палка",
+            "category": "Природа та погода",
+            "type": "іменник",
+            "definition": "Шматок дерева, гілки."
+        },
+        {
+            "word": "water",
+            "translation": "поливати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Поливати рослини."
+        },
+        {
+            "word": "mountain",
+            "translation": "гора",
+            "category": "Природа та погода",
+            "type": "іменник",
+            "definition": "Гора."
+        },
+        {
+            "word": "sit",
+            "translation": "сидіти",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Сидіти."
+        },
+        {
+            "word": "stand",
+            "translation": "стояти",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Стояти."
+        },
+        {
+            "word": "come",
+            "translation": "приходити",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Приходити."
+        },
+        {
+            "word": "aunt",
+            "translation": "тітка",
+            "category": "Сім'я",
+            "type": "іменник",
+            "definition": "Сестра батька або матері."
+        },
+        {
+            "word": "uncle",
+            "translation": "дядько",
+            "category": "Сім'я",
+            "type": "іменник",
+            "definition": "Брат батька або матері."
+        },
+        {
+            "word": "cousin",
+            "translation": "двоюрідний брат / сестра",
+            "category": "Сім'я",
+            "type": "іменник",
+            "definition": "Дитина дядька або тітки."
+        },
+        {
+            "word": "sibling",
+            "translation": "брат / сестра",
+            "category": "Сім'я",
+            "type": "іменник",
+            "definition": "Інша дитина твоїх батьків."
+        },
+        {
+            "word": "name",
+            "translation": "ім'я",
+            "category": "Сім'я",
+            "type": "іменник",
+            "definition": "Назва людини."
+        },
+        {
+            "word": "last name",
+            "translation": "прізвище",
+            "category": "Сім'я",
+            "type": "іменник",
+            "definition": "Ім'я сім'ї."
+        },
+        {
+            "word": "here",
+            "translation": "тут",
+            "category": "Прислівники",
+            "type": "прислівник",
+            "definition": "У цьому місці."
+        },
+        {
+            "word": "there",
+            "translation": "там",
+            "category": "Прислівники",
+            "type": "прислівник",
+            "definition": "У тому місці."
+        },
+        {
+            "word": "have",
+            "translation": "мати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Мати."
+        },
+        {
+            "word": "Near",
+            "translation": "біля / поряд з",
+            "category": "Прислівники",
+            "type": "прислівник",
+            "definition": "Бути поряд з чимось."
+        },
+        {
+            "word": "give",
+            "translation": "давати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Давати комусь щось."
+        },
+        {
+            "word": "fast",
+            "translation": "швидкий",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Той, що рухається з великою швидкістю."
+        },
+        {
+            "word": "slow",
+            "translation": "повільний",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Той, що рухається з маленькою швидкістю."
+        },
+        {
+            "word": "Quiet",
+            "translation": "тихий",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Не гучний."
+        },
+        {
+            "word": "loud",
+            "translation": "гучний",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Не тихий."
+        },
+        {
+            "word": "favorite",
+            "translation": "улюблений",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Той, що подобається найбільше."
+        },
+        {
+            "word": "quick",
+            "translation": "швидкий",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Синонім до слова 'fast'."
+        },
+        {
+            "word": "put",
+            "translation": "класти",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Класти щось кудись."
+        },
+        {
+            "word": "take",
+            "translation": "брати",
+            "category": "Дієслова",
+            "type": "дієслово",
+            "definition": "Брати щось."
+        },
+        {
+            "word": "ugly",
+            "translation": "некрасивий",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Антонім слова красивий."
+        },
+        {
+            "word": "stupid",
+            "translation": "дурний / нерозумний",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Нерозумний."
+        },
+        {
+            "word": "smart",
+            "translation": "розумний",
+            "category": "Характеристика",
+            "type": "прикметник",
+            "definition": "Той, що знає багато та гарний в навчанні."
+        }
+    ]
+}

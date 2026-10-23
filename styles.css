@@ -1,0 +1,567 @@
+body {
+    margin-top: 0;
+}
+
+header a {
+    font-size: x-large;
+    padding: 5px;
+    margin: 10px;
+    text-decoration: none;
+    color: crimson;
+    display: inline;
+}
+
+#results {
+    display: none;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid black;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+p {
+    display: inline;
+    font-size: large;
+}
+
+#guessed {
+    text-align: right;
+}
+
+div {
+    display: block;
+}
+
+#form-block {
+    max-width: 600px;
+    max-height: 600px;
+    align-self: center;
+    margin: auto;
+    margin-top: 12%;
+    border: 2px solid black;
+    padding: 2%;
+    display: none;
+}
+
+#test-choice {
+    text-align: center;
+    margin-top: 12%;
+    padding: 10px;
+}
+
+#sentence-test-link {
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 8px;
+    border: 3px solid lightcoral;
+    font-size: larger;
+    color: unset;
+    text-decoration: none;
+    padding: 2px;
+}
+
+#sentence-test-link:hover {
+    background-color: lightcoral;
+    cursor: default;
+}
+
+input {
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+select {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin: 5px;
+}
+
+#congratulation-block {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    margin-top: 12%;
+    border: 2px solid black;
+    max-width: 600px;
+    max-height: 600px;
+    display: none;
+}
+
+#word-block {
+    margin: auto;
+    padding: 10px;
+    border: 2px solid black;
+    max-width: 410px;
+}
+
+#sentence-test-link {
+    display: block;
+}
+
+table,
+tr,
+td {
+    padding: 5px;
+    font-size: large;
+    text-align: left;
+}
+
+td {
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: top;
+}
+
+.name {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: larger;
+}
+
+h1 {
+    text-align: center;
+}
+
+.results-box {
+    display: flex;
+    justify-content: center;
+}
+
+.results-box div {
+    padding: 10px;
+    margin: 10px;
+}
+
+#result-table td {
+    border: 2px solid black;
+}
+
+#result-table {
+    border-collapse: collapse;
+}
+
+#senteces-p {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#button-box {
+    text-align: center;
+}
+
+#answ-input {
+    font-size: large;
+}
+
+button {
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 8px;
+    border: 3px solid lightcoral;
+    background-color: white;
+    font-size: larger;
+}
+
+button:hover {
+    background-color: lightcoral;
+}
+
+#mode-block {
+    display: block;
+    text-align: right;
+}
+
+#mode {
+    border: 1px solid grey;
+    font-size: medium;
+}
+
+#mode:hover {
+    background-color: grey;
+}
+
+#smt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.night-mode {
+    background-color: rgb(40, 39, 39);
+    color: white;
+}
+
+#verb-block {
+    margin: auto;
+    padding: 10px;
+    max-width: max-content;
+}
+
+#verbs {
+    border-collapse: collapse;
+}
+
+#verbs tr:hover {
+    background-color: rgb(203, 202, 202);
+}
+
+#verbs td {
+    border: 2px solid black;
+}
+
+#verbs td:hover {
+    background-color: rgb(227, 108, 108);
+}
+
+.headlineTB {
+    font-weight: bold;
+}
+
+.word:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.wordlink {
+    font-size: large;
+    color: black;
+}
+
+#start-btn-block {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#start-btn {
+    padding: 10px;
+    font-size: x-large;
+}
+
+#game-block {
+    display: none;
+    text-align: center;
+}
+
+#score {
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+#word-input {
+    font-size: large;
+    text-align: center;
+}
+
+.word-block {
+    display: inline-table;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    width: 400px;
+}
+
+.guessed {
+    display: inline-block;
+    font-size: larger;
+    background-color: lightgreen;
+    padding: 4px;
+    border-radius: 7px;
+    margin: 3px;
+}
+
+.word-block-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.word-header {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.block-score {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#questions {
+    font-size: larger;
+    text-align: right;
+    margin: 5px;
+}
+
+#answer-btn,
+#sentence {
+    margin: 5px;
+}
+
+#answer-input {
+    font-size: large;
+}
+
+#question-block {
+    max-width: 600px;
+    max-height: 600px;
+    align-self: center;
+    margin: auto;
+    margin-top: 12%;
+    border: 2px solid black;
+    padding: 2%;
+    display: none;
+}
+
+#answer-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+
+.overlay-box {
+    text-align: center;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    height: max-content;
+    padding: 10px;
+
+    border: 2px solid black;
+    width: 400px;
+    z-index: 10;
+    background-blend-mode: color;
+    backdrop-filter: blur(3px);
+    background: rgba(184, 59, 59, 0.2);
+    display: block;
+}
+
+#settings-box {
+    display: none;
+}
+
+#settingsBtn {
+    border: 1px solid rgb(98, 26, 255);
+    font-size: medium;
+}
+
+#settingsBtn:hover {
+    background-color: rgb(184, 151, 255);
+}
+
+.setting {
+    display: grid;
+    grid-auto-rows: 2fr;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.setting li {
+    list-style-type: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    left: 8px;
+    border: 2px solid black;
+    border-top: none;
+    background-color: #999494ab;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: underline;
+    font-size: 20px;
+    color: #000000;
+    display: block;
+}
+
+.main {
+    margin-left: 250px;
+    padding: 0px 10px;
+}
+
+.grammarLink {
+    display: block;
+    text-decoration: underline;
+    font-size: 20px;
+    color: seagreen;
+    text-decoration: none;
+    padding: 4px;
+}
+
+.grammarLink:hover {
+    color: darkred;
+    text-decoration: underline;
+}
+
+.headline {
+    text-align: center;
+    color: darkcyan;
+}
+
+.content {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.segment-headline {
+    text-align: left;
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+.example {
+    display: block;
+    text-align: left;
+    font-size: large;
+    margin-left: 5%;
+    background-color: rgb(243, 243, 243);
+    max-width: max-content;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+}
+
+.rule {
+    font-weight: bold;
+}
+
+.important-rule {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgb(250, 188, 118);
+    border: 3px solid red;
+    display: block;
+}
+
+span {
+    color: red;
+}
+
+li {
+    font-size: large;
+}
+
+.rules-tb {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 99%;
+    max-width: 99%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    word-break: break-word;
+}
+
+.rules-tb td {
+    border: 2px solid black;
+}
+
+.rules-tb p {
+    font-size: medium;
+    color: rgb(103, 102, 102);
+}
+
+.links {
+    display: grid;
+    grid-auto-rows: 4fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 15px;
+}
+
+.links li {
+    list-style-type: none;
+}
+
+@media only screen and (max-width: 600px) {
+    #definitions {
+        display: none;
+    }
+
+    label {
+        padding: 3px;
+        font-size: medium;
+    }
+
+    label {
+        font-size: large;
+    }
+
+    a {
+        font-size: large;
+    }
+
+    #results {
+        display: inline;
+    }
+
+    .results-box {
+        display: grid;
+        justify-content: center;
+    }
+
+    .results-box div{
+        width: max-content;
+        margin: auto;
+    }
+
+    .word-block {
+        max-width: 90%;
+    }
+
+    .overlay-box {
+        max-width: 99%;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .content {
+        text-align: left;
+        margin: 3%;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .main {
+        margin-left: 0px;
+    }
+
+    .rules-tb td,
+    .rules-tb p {
+        font-size: medium;
+    }
+
+    .links {
+        display: block;
+        padding: 0;
+    }
+}

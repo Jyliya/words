@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name words by category</title>
+    <link rel="icon" type="image/x-icon" href="dictionary.png">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">Words</a>
+        <a href="irregular-verbs.html">Verbs</a>
+        <a href="test.html">Test</a>
+        <a id="results" href="results.html">Results</a>
+    </header>
+    <div id="mode-block"><button id="mode" value="Night mode">Нічний режим</button></div>
+
+    <div id="instruction-box" class="overlay-box">
+        <h1>Правила</h1>
+        <p>1. Прочитай назву категорії.</p> <br />
+        <p>2. Продивися яку кількість літер мають можливі слова.</p> <br />
+        <p>3. Вгадай слова.</p> <br />
+        <p>4. Використовуй підказки, якщо потрібно.</p> <br /> <br /> 
+        <input type="checkbox" id="instructionCheck" />
+        <label for="instructionCheck">Не показувати знову.</label> <br />
+        <button id="instructionAgreeBtn">Ок</button>
+    </div>
+
+    <div id="start-btn-block">
+        <button id="start-btn">Початок</button>
+    </div>
+
+    <div id="game-block">
+        <h1 id="category">Категорія</h1>
+        <div id="score-block">
+            <p id="score">Рахунок: <span id="points">0</span>/<span id="max-points">0</span></p>
+        </div>
+        <br>
+        <div id="input-block">
+            <input id="word-input" type="text" spellcheck="false" autocomplete="off" />
+            <button id="submit-btn">Спробувати</button>
+            <button id="hint-btn">Підказка</button>
+        </div>
+    </div>
+
+    <script src="name-all-words-script.js"></script>
+    <script src="mode-change.js"></script>
+</body>
+
+</html>
