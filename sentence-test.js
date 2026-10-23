@@ -264,12 +264,14 @@ function endTest() {
             congratsBlock.style.display = "none";
             nextBtn.textContent = "Next"
         });
-        const d = new Date();
 
-        const results = JSON.parse(localStorage.getItem("results"));
-        results[`${d.getDay()}`] = 1;
-        results["Sentences"] = 1;
-        localStorage.setItem("results", JSON.stringify(results));
+        const d = new Date();
+        let results = JSON.parse(localStorage.getItem("results"));        
+        if (results != null) {
+            results[`${d.getDay()}`] = 1;
+            results["Sentences"] = 1;
+            localStorage.setItem("results", JSON.stringify(results));
+        }
 
         tryN++;
         localStorage.setItem("number of tries", (JSON.stringify(tryN)));
