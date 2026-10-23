@@ -10,15 +10,11 @@ let data = fetch("sentence_test_words.json");
 let irrVerbs = fetch("verbs.json");
 let tryN = localStorage.getItem("number of tries");
 let irrVerArr = [], nouns = [], verbs = [], tenses = [];
-// let contVerbs = [];
 let nounTypes = ["Singular", "Plural"];
-// let sentenceTypes = ["Affirmative", "Negative", "Question"]
 let sentenceTypes = ["Affirmative"];
 let chosenTenses = [];
 let alphabet = { "a": "A", "b": "B", "c": "C", "d": "D", "e": "E", "f": "F", "g": "G", "h": "H", "i": "I", "j": "J", "k": "K", "l": "L", "m": "M", "n": "N", "o": "O", "p": "P", "q": "Q", "r": "R", "s": "S", "t": "T", "u": "U", "v": "V", "w": "W", "x": "X", "y": "Y", "z": "Z" }
 let vowels = ["a", "o", "u", "i", "e"];
-
-// Cry in past, write in continuous // Verbs in continuous don't work
 
 data
     .then(response => response.json())
@@ -29,9 +25,6 @@ data
         for (item of json["verbs"]) {
             verbs.push(item);
         }
-        // for (item of json["verbsForContinuous"]) {
-        //     contVerbs.push(item);
-        // }
         for (item of json["tenses"]) {
             tenses.push(item);
         }
@@ -70,30 +63,20 @@ document.querySelector("#settingsCloseBtn").addEventListener("click", () => {
 
     sentenceTypes = ["Affirmative"];
     const allTypes = document.querySelectorAll('input[name="type"]');
-    // const chosenTenses = [];
     allTypes.forEach(checkbox => {
         if (checkbox.checked) {
             sentenceTypes.push(checkbox.value);
         }
     });
     document.querySelector("#settings-box").style.display = "none";
-    // console.log(sentenceTypes)
-    console.log(chosenTenses)
-    console.log(tenses)
 })
 
 
 document.querySelector("#start-btn").addEventListener("click", () => {
     document.querySelector("#start-btn-block").style.display = "none";
     document.querySelector("#question-block").style.display = "block";
-    // if (document.querySelector("#questionCheck").checked) { typesNum = 2 }
-    // else { typesNum = 1 }
     nextBtn.click()
 })
-
-// let verb = "bake"
-// console.log(verb)
-// console.log(verb.slice(0, -1))
 
 function getRandom(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
@@ -102,7 +85,6 @@ function getRandom(min, max) {
 nextBtn.addEventListener("click", () => {
     checkAnswer(answer);
     endTest();
-    // console.log(questionNum.textContent)
     answer = generateSentence();
 })
 
@@ -118,22 +100,11 @@ function checkRand(num, array, max) {
     return num;
 }
 
-// function showRightAnswer(answer) {
-//     new swal({
-//         title: "Неправильно!",
-//         text: 'Правильна відповідь: ' + answer
-//     });
-// }//Показ правильного відповіді
-
 function capitalizeAWord(word) {
     let capWord;
     for (const letter in alphabet) {
         if (letter == word[0]) {
-            // console.log(letter + " " + word[0] + " " + alphabet[letter])
             capWord = alphabet[letter] + word.slice(1);
-            // console.log(word[0] = alphabet[letter])
-            // str.slice(0, index) + newChar + str.slice(index + 1);
-            // console.log(capWord)
         }
     }
     return capWord
@@ -141,9 +112,6 @@ function capitalizeAWord(word) {
 
 function addEndingForPS(word) {
     let changedWord;
-    // console.log(word);
-    // console.log(Array.from(word)[word.length - 1]);
-    // console.log(word.slice(word.length - 2, word.length))
     if (Array.from(word)[word.length - 1] == "y") {
         if (!vowels.includes(Array.from(word)[word.length - 2])) {
             changedWord = word.slice(0, word.length - 1) + "ies"
@@ -153,7 +121,6 @@ function addEndingForPS(word) {
         changedWord = word + "es"
     }
     else { changedWord = word + "s" }
-    // console.log(changedWord)
     return changedWord
 }
 
@@ -169,37 +136,23 @@ function getAVerb() {
         verb = verbs[randNum2];
         usedVerbs.push(randNum2);
     }
-    console.log(verb)
-    console.log(usedVerbs)
     return verb
 }
 
 function generateSentence() {
-    // console.log(questionNum.textContent)
-    // console.log(chosenTenses == 0)
     if (chosenTenses.length == 0) {document.querySelectorAll('input[name="tense"]').forEach(elem => {chosenTenses.push(elem.value)})}
     let type = nounTypes[getRandom(0, 1)];
-    // let sentenceType = sentenceTypes[getRandom(0, typesNum)];
     let sentenceType = sentenceTypes[getRandom(0, sentenceTypes.length-1)];
-    // let randNumForTense = checkRand(getRandom(0, tenses.length - 1), usedTenses, tenses.length - 1)
-    // tense = tenses[randNumForTense];
     let randNumForTense = checkRand(getRandom(0, chosenTenses.length - 1), usedTenses, chosenTenses.length - 1)
     tense = tenses.find(item => item.name === chosenTenses[randNumForTense]);;
-
-    // let nameT = "Past Simple";
-    // let tenseOne = tenses.find(item => item.name === nameT);
-    console.log(tense.name)
 
     if (tense.name == "Present Perfect Continuous" && sentenceType == "Negative") {
         sentenceType = "Affirmative";
     }
 
     let noun = nouns[getRandom(0, nouns.length - 1)];
-
     let verbFullObj = getAVerb();
-
     let object = verbFullObj["objects"][getRandom(0, verbFullObj["objects"].length - 1)];
-
     let answer = verbFullObj["verb"];
     let question = '';
 
@@ -209,11 +162,7 @@ function generateSentence() {
 
     let noForm = true;
     let modalVerd = "";
-    // tenseName.textContent = tense.name;
     if (type == "Plural") { noun += "s" };
-
-    // console.log(sentenceType)
-    // console.log(tense.name)
     if (sentenceType == "Negative") { question += "not " }
 
     if (tense["form"] && (sentenceType == "Affirmative" || tense.name.includes("Perfect"))) {
@@ -226,8 +175,6 @@ function generateSentence() {
         }
     }
 
-    // console.log("form: " + !noForm + " " + tense["form"])
-
     if (noForm && (sentenceType == "Affirmative" || tense.name.includes("Continuous") || tense.name.includes("Perfect"))) {
         if (tense["verbEnding"] == "ed" || tense["verbEnding"] == "ing") {
             if (Array.from(answer)[answer.length - 1] == "e") {
@@ -238,11 +185,7 @@ function generateSentence() {
         else if (tense[`verbEnding${type}`]) { answer += tense[`verbEnding${type}`] }
     }
 
-    // console.log(tense.name == "Present Simple")
-    // console.log(sentenceType == "Affirmative")
-    // console.log(type == "Sungular")
     if (tense.name == "Present Simple" && sentenceType == "Affirmative" && type == "Singular") {
-        // console.log("yes")
         answer = addEndingForPS(verbFullObj["verb"]);
     }
 
@@ -265,16 +208,8 @@ function generateSentence() {
     }
     else if (keyword["position"] == "beginning") { noun = keyword.keyword + " " + noun }
 
-    // if (tense["place"] == "after") { object += " " + tense["keywords"][getRandom(0, tense["keywords"].length - 1)] }
-    // else if (tense["place"] == "before") {
-    //     let randNum = getRandom(0, tense["keywords"].length - 1)
-    //     modalVerd += " " + tense["keywords"][randNum]
-    //     question += tense["keywords"][randNum] + " "
-    // }
-    // console.log("noun before capitalization: " + noun)
     if (keyword["position"] != "beginning" && sentenceType != "Question") { noun = capitalizeAWord(noun) }
 
-    // console.log(noun + " " + keyword["position"])
     usedTenses.push(randNumForTense);
     question += verbFullObj["verb"];
     if (sentenceType == "Affirmative" || sentenceType == "Negative") {
@@ -290,19 +225,11 @@ function generateSentence() {
         if (tense.name == "Future Continuous") { answer = "be " + answer }
         else if (tense.name == "Present Perfect Continuous") { answer = "been " + answer }
 
-        console.log(questionVerb + " " + noun + modalVerd + " " + answer);
         return questionVerb + " " + noun + modalVerd + " " + answer
     }
-    // console.log("Answer: " + modalVerd + " " + answer)
-    // console.log("___________________")
-    // console.log("Array: " + usedTenses)
-    // console.log("Num: " + randForTense)
-    // usedVerbs.push(verbFullObj["verb"])
-
 }
 
 function checkAnswer(answer) {
-    // console.log(questionNum.textContent)
     if (answer == undefined) {
         return
     }
@@ -342,7 +269,6 @@ function endTest() {
         const results = JSON.parse(localStorage.getItem("results"));
         results[`${d.getDay()}`] = 1;
         results["Sentences"] = 1;
-        // console.log(results[`${d.getDay()}`])
         localStorage.setItem("results", JSON.stringify(results));
 
         tryN++;
@@ -351,23 +277,18 @@ function endTest() {
         correctCount = 0;
         questionNum.textContent = 0;
         usedVerbs.length = 0;
-        // console.log(questionNum.textContent)
     }
 }//Перевірка на кількість пройдених питань
 
 document.querySelector("#answer-input").addEventListener("keydown", (e) => {
-    // let message = `keydown (Code = ${e.code}, Key = ${e.key})`;
-    // console.log(message)
     if (e.code == "Enter" || e.code == "NumpadEnter") {
         e.preventDefault();
         document.querySelector("#answer-btn").click();
-        // getNewQuestion();
     }
 })
 
 document.addEventListener("keydown", (e) => {
     if (e.code == "KeyA" && e.shiftKey) {
-        window.location.href = "/results.html"
-        // window.location.href = "/Words-and-Tests/results.html"
+        window.location.href = "/words/results.html"
     }
 })
