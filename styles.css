@@ -98,10 +98,6 @@ select {
     max-width: 410px;
 }
 
-#sentence-test-link {
-    display: block;
-}
-
 table,
 tr,
 td {
