@@ -82,17 +82,13 @@ function sort(arr) {
     document.querySelector("#word-block").appendChild(table)
 } // Сортування
 
-function addWordToATable(elem, id) {
+function addWordToATable(elem) {
     let tr = document.createElement("tr");
     let td1 = document.createElement("td");
     let td2 = document.createElement("td");
-    let a = document.createElement("a");
-    td1.classList.add("word")
-    a.textContent = elem.word;
-    a.classList.add("wordlink")
-    a.href = `/word.html?id=${id}`
-    td1.appendChild(a)
+    td1.textContent = elem.word;
     td2.textContent = elem.translation;
+    td1.classList.add("word")
     tr.appendChild(td1);
     tr.appendChild(td2);
     return tr;
