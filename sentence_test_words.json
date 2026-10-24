@@ -116,15 +116,6 @@
             ]
         },
         {
-            "verb": "drive",
-            "objects": [
-                "a car",
-                "to work",
-                "to the city",
-                "home"
-            ]
-        },
-        {
             "verb": "walk",
             "objects": [
                 "in the park",
@@ -140,15 +131,6 @@
                 "to the boss",
                 "to the teacher",
                 "about work"
-            ]
-        },
-        {
-            "verb": "build",
-            "objects": [
-                "a house",
-                "a project",
-                "a model",
-                "something new"
             ]
         },
         {
@@ -225,31 +207,6 @@
             ]
         },
         {
-            "verb": "feel",
-            "objects": [
-                "joy",
-                "upset",
-                "happy",
-                "sad",
-                "excited"
-            ]
-        },
-        {
-            "verb": "fight",
-            "objects": [
-                "with a friend",
-                "with a sibling",
-                "with a colleague"
-            ]
-        },
-        {
-            "verb": "fly",
-            "objects": [
-                "on a plane",
-                "to another country"
-            ]
-        },
-        {
             "verb": "drink",
             "objects": [
                 "water",
@@ -294,25 +251,11 @@
             ]
         },
         {
-            "verb": "cry",
-            "objects": [
-                "at a sad movie"
-            ]
-        },
-        {
             "verb": "dance",
             "objects": [
                 "at a party",
                 "in the club",
                 "at a wedding"
-            ]
-        },
-        {
-            "verb": "draw",
-            "objects": [
-                "a picture",
-                "a sketch",
-                "a design"
             ]
         },
         {
@@ -413,24 +356,6 @@
             ]
         },
         {
-            "verb": "teach",
-            "objects": [
-                "students",
-                "a class",
-                "English",
-                "children"
-            ]
-        },
-        {
-            "verb": "send",
-            "objects": [
-                "a message",
-                "an email",
-                "a letter",
-                "a file"
-            ]
-        },
-        {
             "verb": "receive",
             "objects": [
                 "a message",
@@ -467,199 +392,12 @@
             ]
         },
         {
-            "verb": "find",
-            "objects": [
-                "a solution",
-                "a job",
-                "a place",
-                "a key"
-            ]
-        },
-        {
-            "verb": "lose",
-            "objects": [
-                "a key",
-                "a phone",
-                "a game",
-                "money"
-            ]
-        },
-        {
-            "verb": "win",
-            "objects": [
-                "a game",
-                "a match",
-                "a prize",
-                "a competition"
-            ]
-        },
-        {
-            "verb": "choose",
-            "objects": [
-                "a plan",
-                "a dress",
-                "a place",
-                "an option"
-            ]
-        },
-        {
             "verb": "need",
             "objects": [
                 "help",
                 "money",
                 "time",
                 "a break"
-            ]
-        },
-        {
-            "verb": "break",
-            "objects": [
-                "a vase",
-                "a window",
-                "a phone"
-            ]
-        },
-        {
-            "verb": "bring",
-            "objects": [
-                "a book",
-                "a gift",
-                "a friend"
-            ]
-        }
-    ],
-    "verbsForContinuous": [
-        {
-            "verb": "go",
-            "objects": [
-                "home",
-                "there",
-                "to the party",
-                "to the meeting",
-                "to the park",
-                "to the restaurant",
-                "to the cinema",
-                "to school",
-                "to work"
-            ]
-        },
-        {
-            "verb": "watch",
-            "objects": [
-                "TV",
-                "a movie",
-                "a show",
-                "a series"
-            ]
-        },
-        {
-            "verb": "read",
-            "objects": [
-                "a book",
-                "a newspaper",
-                "a magazine",
-                "a message",
-                "an email",
-                "a story"
-            ]
-        },
-        {
-            "verb": "write",
-            "objects": [
-                "a message",
-                "a letter",
-                "an email",
-                "a note"
-            ]
-        },
-        {
-            "verb": "work",
-            "objects": [
-                "in an office",
-                "from home",
-                "on a project"
-            ]
-        },
-        {
-            "verb": "cook",
-            "objects": [
-                "dinner",
-                "lunch",
-                "breakfast"
-            ]
-        },
-        {
-            "verb": "bake",
-            "objects": [
-                "a cake",
-                "cookies",
-                "bread"
-            ]
-        },
-        {
-            "verb": "play",
-            "objects": [
-                "soccer",
-                "tennis",
-                "chess",
-                "football",
-                "basketball",
-                "a game",
-                "video games"
-            ]
-        },
-        {
-            "verb": "clean",
-            "objects": [
-                "the room",
-                "the house",
-                "the table",
-                "the kitchen"
-            ]
-        },
-        {
-            "verb": "drive",
-            "objects": [
-                "a car",
-                "to work",
-                "to the city",
-                "home"
-            ]
-        },
-        {
-            "verb": "walk",
-            "objects": [
-                "in the park",
-                "home",
-                "to school",
-                "outside"
-            ]
-        },
-        {
-            "verb": "talk",
-            "objects": [
-                "to a friend",
-                "to their boss",
-                "to our teacher",
-                "about work"
-            ]
-        },
-        {
-            "verb": "build",
-            "objects": [
-                "a house",
-                "a project",
-                "a model",
-                "something new"
-            ]
-        },
-        {
-            "verb": "search",
-            "objects": [
-                "for a solution",
-                "for a job",
-                "for a place",
-                "for a key"
             ]
         }
     ],
@@ -719,69 +457,6 @@
                     "sentenceType": [
                         "Affirmative"
                     ]
-                },
-                {
-                    "keyword": "every day",
-                    "position": "after",
-                    "sentenceType": [
-                        "Affirmative",
-                        "Negative",
-                        "Question"
-                    ]
-                },
-                {
-                    "keyword": "on Mondays",
-                    "position": "after",
-                    "sentenceType": [
-                        "Affirmative",
-                        "Negative",
-                        "Question"
-                    ]
-                },
-                {
-                    "keyword": "on Tuesdays",
-                    "position": "after",
-                    "sentenceType": [
-                        "Affirmative",
-                        "Negative",
-                        "Question"
-                    ]
-                },
-                {
-                    "keyword": "on Fridays",
-                    "position": "after",
-                    "sentenceType": [
-                        "Affirmative",
-                        "Negative",
-                        "Question"
-                    ]
-                },
-                {
-                    "keyword": "on Sundays",
-                    "position": "after",
-                    "sentenceType": [
-                        "Affirmative",
-                        "Negative",
-                        "Question"
-                    ]
-                },
-                {
-                    "keyword": "in the morning",
-                    "position": "after",
-                    "sentenceType": [
-                        "Affirmative",
-                        "Negative",
-                        "Question"
-                    ]
-                },
-                {
-                    "keyword": "at night",
-                    "position": "after",
-                    "sentenceType": [
-                        "Affirmative",
-                        "Negative",
-                        "Question"
-                    ]
                 }
             ]
         },
@@ -829,25 +504,7 @@
                     ]
                 },
                 {
-                    "keyword": "3 weeks ago",
-                    "position": "after",
-                    "sentenceType": [
-                        "Affirmative",
-                        "Negative",
-                        "Question"
-                    ]
-                },
-                {
                     "keyword": "in 2025",
-                    "position": "after",
-                    "sentenceType": [
-                        "Affirmative",
-                        "Negative",
-                        "Question"
-                    ]
-                },
-                {
-                    "keyword": "last Tuesday",
                     "position": "after",
                     "sentenceType": [
                         "Affirmative",
@@ -900,25 +557,7 @@
                     ]
                 },
                 {
-                    "keyword": "in the future",
-                    "position": "after",
-                    "sentenceType": [
-                        "Affirmative",
-                        "Negative",
-                        "Question"
-                    ]
-                },
-                {
                     "keyword": "in 2028",
-                    "position": "after",
-                    "sentenceType": [
-                        "Affirmative",
-                        "Negative",
-                        "Question"
-                    ]
-                },
-                {
-                    "keyword": "next Wednesday",
                     "position": "after",
                     "sentenceType": [
                         "Affirmative",
@@ -964,14 +603,6 @@
                         "Negative",
                         "Question"
                     ]
-                },
-                {
-                    "keyword": "Look,",
-                    "position": "beginning",
-                    "sentenceType": [
-                        "Affirmative",
-                        "Negative"
-                    ]
                 }
             ]
         },
@@ -1005,24 +636,6 @@
                 },
                 {
                     "keyword": "while I was sleeping",
-                    "position": "after",
-                    "sentenceType": [
-                        "Affirmative",
-                        "Negative",
-                        "Question"
-                    ]
-                },
-                {
-                    "keyword": "at noon yesterday",
-                    "position": "after",
-                    "sentenceType": [
-                        "Affirmative",
-                        "Negative",
-                        "Question"
-                    ]
-                },
-                {
-                    "keyword": "last Saturday at 3pm",
                     "position": "after",
                     "sentenceType": [
                         "Affirmative",
@@ -1067,7 +680,7 @@
                     ]
                 },
                 {
-                    "keyword": "at noon tomorrow",
+                    "keyword": "while I will be sleeping",
                     "position": "after",
                     "sentenceType": [
                         "Affirmative",
@@ -1076,7 +689,7 @@
                     ]
                 },
                 {
-                    "keyword": "while I will be sleeping",
+                    "keyword": "when he comes",
                     "position": "after",
                     "sentenceType": [
                         "Affirmative",
@@ -1147,11 +760,12 @@
                         "Question"
                     ]
                 },
-                {"keyword": "ever",
-                 "position": "before",
-                 "sentenceType": [
-                     "Question"
-                 ]
+                {
+                    "keyword": "ever",
+                    "position": "before",
+                    "sentenceType": [
+                        "Question"
+                    ]
                 }
             ]
         },
