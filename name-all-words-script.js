@@ -183,7 +183,7 @@ function fillWordBlock(num, categ) {
     if (index != 0) {
         maxPoints = maxPoints + index * 5;
         let headerDiv = createDiv("word-block-header");
-        headerDiv.appendChild(createWordP(`${num}-symbol words`, "word-header"));
+        headerDiv.appendChild(createWordP(`${num}-символьні слова`, "word-header"));
         headerDiv.appendChild(createScore(index, num));
         div.appendChild(headerDiv);
         div.id = `words-${num}`;
