@@ -44,3 +44,9 @@ if (window.location.pathname == "/words/name-all-words.html") {
         document.querySelector("#instruction-box").style.display = "none";
     }
 }
+
+const resultsD = JSON.parse(localStorage.getItem("results"));
+
+if (resultsD == null) {
+    localStorage.setItem("results", JSON.stringify({"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "0": 0, "Sentences": 0}))
+}
